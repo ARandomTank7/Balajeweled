@@ -13,8 +13,8 @@ local atlas_key = 'BJW' -- Format: PREFIX_KEY
 local atlas_path = 'balajeweled.png' -- Filename for the image in the asset folder
 local atlas_path_hc = nil -- Filename for the high-contrast version of the texture, if existing
 
-local suits = {'hearts', 'clubs', 'diamonds', 'spades'} -- Which suits to replace
-local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', "Ace",} -- Which ranks to replace
+local suits = {'hearts', 'spades', 'clubs', 'diamonds'} -- Which suits to replace
+local ranks = {"Ace",} -- Which ranks to replace
 
 local description = 'Balajeweled' -- English-language description, also used as default
 
