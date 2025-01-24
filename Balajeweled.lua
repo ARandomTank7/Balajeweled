@@ -1,6 +1,6 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: Balajeweled
---- MOD_ID: Balajeweled
+--- MOD_ID: balajeweled
 --- PREFIX: BJW
 --- MOD_AUTHOR: [ARandomTank7]
 --- MOD_DESCRIPTION: A love letter to PopCap's Bejeweled, adds a Bejeweled-themed deck skin into the game.
