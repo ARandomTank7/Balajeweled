@@ -1,7 +1,7 @@
 # Balajeweled
 Bejeweled-themed deck skin for Balatro
 
-![alt text](https://i.imgur.com/wWLyEeG.png)
+![alt text](https://i.imgur.com/Cq8zGT5.png)
 
 > [!IMPORTANT]
 > As for now, the aces and the ~~wees~~ 2s of each suit have been made, i'll start making the numbered cards when i have some spare time.
