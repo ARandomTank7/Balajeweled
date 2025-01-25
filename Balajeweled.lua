@@ -5,7 +5,7 @@
 --- MOD_AUTHOR: [ARandomTank7]
 --- MOD_DESCRIPTION: A love letter to PopCap's Bejeweled, adds a Bejeweled-themed deck skin into the game.
 --- LOADER_VERSION_GEQ: 1.0.0
---- VERSION: 0.0.1
+--- VERSION: 0.0.2
 --- BADGE_COLOR: 2983EB
 
 local atlas_key = 'BJW'
@@ -14,7 +14,7 @@ local atlas_path = 'balajeweled.png'
 local atlas_path_hc = nil
 
 local suits = {'hearts', 'spades', 'clubs', 'diamonds'}
-local ranks = {"Ace",} 
+local ranks = {"Ace","2"} 
 
 local description = 'Balajeweled'
 
