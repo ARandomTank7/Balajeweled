@@ -1,7 +1,7 @@
 # Balajeweled
 Bejeweled-themed deck skin for Balatro
 
-![alt text](https://i.imgur.com/wWLyEeG.png)
+![alt text](https://i.imgur.com/Cq8zGT5.png)
 
 > [!NOTE]
 > This pack is a WIP (Work In Progress), you can check the progress by clicking **[here](#progress)**, if you want to test it however, see the instructions below.
