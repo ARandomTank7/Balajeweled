@@ -5,30 +5,36 @@
 --- MOD_AUTHOR: [ARandomTank7]
 --- MOD_DESCRIPTION: A love letter to PopCap's Bejeweled, adds a Bejeweled-themed deck skin into the game.
 --- LOADER_VERSION_GEQ: 1.0.0
---- VERSION: 0.0.3
+--- VERSION: 0.0.4~beta
 --- BADGE_COLOR: 2983EB
 
 local atlas_key = 'BJW'
--- See end of file for notes
+
 local atlas_path = 'balajeweled.png'
 local atlas_path_hc = nil
+
+local enhancers_path = 'bjw_enhancers.png'
 
 local suits = {'hearts', 'spades', 'clubs', 'diamonds'}
 local ranks = {"Ace","2", "3", "4"} 
 
 local description = 'Balajeweled'
 
------------------------------------------------------------
--- You should only need to change things above this line --
------------------------------------------------------------
-
 SMODS.Atlas{  
     key = atlas_key..'_lc',
     px = 71,
     py = 95,
     path = atlas_path,
-    prefix_config = {key = false}, -- See end of file for notes
+    prefix_config = {key = false}, 
 }
+
+SMODS.Atlas{
+	key = "centers",
+	path = enhancers_path,
+	px = 71,
+	py = 95,
+	prefix_config = { key = false }
+}:register()
 
 if atlas_path_hc then
     SMODS.Atlas{  
@@ -36,7 +42,7 @@ if atlas_path_hc then
         px = 71,
         py = 95,
         path = atlas_path_hc,
-        prefix_config = {key = false}, -- See end of file for notes
+        prefix_config = {key = false}, 
     }
 end
 
