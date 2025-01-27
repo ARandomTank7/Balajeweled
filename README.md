@@ -13,7 +13,7 @@ Bejeweled-themed deck skin for Balatro
 3. Upon entering the game, go to "Options" and "Customize deck", set all suits to "Balajeweled"
 4. If everything's fine, you are all set :D
 
-## Progress ![45%](https://progress-bar.xyz/45)
+## Progress ![54%](https://progress-bar.xyz/54)
 - [x] Ace
 - [x] 2
 - [x] 3
