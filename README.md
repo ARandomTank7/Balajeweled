@@ -19,7 +19,7 @@ Bejeweled-themed deck skin for Balatro
 - [x] 3
 - [x] 4
 - [x] 5
-- [ ] 6
+- [x] 6
 - [ ] 7
 - [ ] 8
 - [ ] 9
