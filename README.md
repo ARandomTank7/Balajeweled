@@ -14,7 +14,7 @@ Bejeweled-themed deck skin for Balatro
 4. If everything's fine, you are all set :D
 
 ## Progress
-![72%](https://progress-bar.xyz/72)
+![81%](https://progress-bar.xyz/81)
 - [x] Ace
 - [x] 2
 - [x] 3
@@ -22,7 +22,7 @@ Bejeweled-themed deck skin for Balatro
 - [x] 5
 - [x] 6
 - [x] 7
-- [ ] 8
+- [x] 8
 - [ ] 9
 - [ ] 10
 - [x] Some enhancements (Wild, Bonus...)
