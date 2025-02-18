@@ -4,9 +4,16 @@ Bejeweled-themed deck skin for Balatro[^1]
 ![alt text](https://i.imgur.com/Cq8zGT5.png)
 
 
-## How to install Balajeweled
+## How to install Balajeweled (the easy way)
+0. Install [Lovely Injector](https://github.com/ethangreen-dev/lovely-injector) and skyline69's [**B**alatro **M**od **M**anager](https://github.com/skyline69/balatro-mod-manager)
+1. After setting up **BMM**, search for Steamodded and install it as Balajeweled requires Steamodded.
+2. Look for Balajeweled, either in the "Resource Packs" category or by searching manually then install it.
+3. Upon entering the game, go to "Options" and "Customize deck", set all suits to "Balajeweled"
+4. If everything's fine, you are all set :D
+
+## How to install Balajeweled (the hard classic way)
 0. Install [Lovely Injector](https://github.com/ethangreen-dev/lovely-injector) and [Steamodded 1.0.0-ALPHA](https://github.com/Steamodded/smods/archive/refs/heads/main.zip) **_(Your AV may freak out after downloading Lovely, don't fret, Lovely is completely safe to download, you'll need to whitelist Lovely in your AV settings)_**
-1. Go to the Releases page on the right panel and download the zip file of the latest release or click **[here](https://github.com/ARandomTank7/Balajeweled/releases/download/v0.1/Balajeweled.zip)** to download the latest version directly.
+1. Go to the Releases page on the right panel and download the zip file of the latest release or click **[here](https://github.com/ARandomTank7/Balajeweled/releases/latest/download/Balajeweled.zip)** to download the latest version directly.
 2. Extract the "Balajeweled" folder from the zip file inside your Balatro mods folder (usually at C:/Users/[yourname]/AppData/Roaming/Balatro/Mods)
 3. Upon entering the game, go to "Options" and "Customize deck", set all suits to "Balajeweled"
 4. If everything's fine, you are all set :D
