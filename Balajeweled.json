@@ -1,0 +1,16 @@
+{
+	"id": "balajeweled",
+	"name": "Balajeweled",
+	"display_name": "Balajeweled",
+	"author": ["ARandomTank7"],
+	"description": "A love letter to PopCap's Bejeweled, adds a Bejeweled-themed deck skin into the game.",
+	"prefix": "BJW",
+	"main_file": "Balajeweled.lua",
+	"priority": 0,
+	"badge_colour": "2983EB",
+	"badge_text_colour": "FFFFFF",
+	"version": "0.1.0",
+	"dependencies": [
+		"Steamodded (>=1.*)"
+	]
+}
