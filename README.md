@@ -1,7 +1,7 @@
 # Balajeweled
 Bejeweled-themed deck skin for Balatro[^1]
 
-![alt text](https://i.imgur.com/Cq8zGT5.png)
+![alt text](https://i.imgur.com/VwzvcQr.png)
 
 
 ## How to install Balajeweled (the easy way)
