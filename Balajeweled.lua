@@ -6,9 +6,16 @@ local atlas_path_hc = nil
 local enhancers_path = 'bjw_enhancers.png'
 
 local suits = {'hearts', 'spades', 'clubs', 'diamonds'}
-local ranks = {"Ace","2","3","4","5","6","7","8","9","10"}
+local ranks = {"Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"}
 
 local description = 'Balajeweled'
+
+SMODS.Atlas({
+    key = 'modicon',
+    path = 'modicon.png',
+    px = '34',
+    py = '34'
+})
 
 SMODS.Atlas{  
     key = atlas_key..'_lc',
