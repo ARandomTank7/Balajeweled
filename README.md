@@ -11,7 +11,7 @@ Bejeweled-themed deck skin for Balatro
 3. Upon entering the game, go to "Options" and "Customize deck", set all suits to "Balajeweled"
 4. If everything's fine, you are all set :D
 
-## How to install Balajeweled (the hard classic way)
+## How to install Balajeweled (the classic way)
 0. Install [Lovely Injector](https://github.com/ethangreen-dev/lovely-injector) and [Steamodded](https://github.com/Steamodded/smods/archive/refs/tags/1.0.0-beta-0301a.zip) **_(Your AV may freak out after downloading Lovely, don't fret, Lovely is completely safe to download, you'll need to whitelist Lovely in your AV settings)_**
 1. Go to the Releases page on the right panel and download the zip file of the latest release or click **[here](https://github.com/ARandomTank7/Balajeweled/releases/latest/download/Balajeweled.zip)** to download the latest version directly.
 2. Extract the "Balajeweled" folder from the zip file inside your Balatro mods folder (usually at C:/Users/[yourname]/AppData/Roaming/Balatro/Mods)
