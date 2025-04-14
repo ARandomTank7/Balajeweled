@@ -25,5 +25,5 @@ Bejeweled-themed deck skin for Balatro
 *Q: Face cards when?*  
 ***A: As of v0.1.2, work on the face cards has begun, for now, it's only the letters and suit icons***
 
-*Q: When new update?*
+*Q: When new update?*  
 ***A: Please keep in mind that this is a pass time project, I work on Balajeweled when I have some time to spare, so please be patient.***
