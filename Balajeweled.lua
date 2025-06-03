@@ -10,6 +10,8 @@ local ranks = {"Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"}
 
 local description = 'Balajeweled'
 
+-- Deck skin part
+
 SMODS.Atlas({
     key = 'modicon',
     path = 'modicon.png',
@@ -57,8 +59,39 @@ for _, suit in ipairs(suits) do
     }
 end
 
--- Notes:
+-- Sounds part
 
--- The current version of Steamodded has a bug with prefixes in mods including `DeckSkin`s.
--- By manually including the prefix in the atlas' key, this should keep the mod functional
--- even after this bug is fixed.
+-- +Mult Sound
+SMODS.Sound({
+    key = "bjw_twist_multup",
+    path = "bjw_twist_multup.ogg",
+    replace = 'multhit1'
+})
+
+-- Scoring sound
+SMODS.Sound({
+    key = "bjw3_match",
+    path = "bjw3_match.ogg",
+    replace = 'chips1'
+})
+
+-- Polychrome sound
+SMODS.Sound({
+    key = "bjw2_hypercube",
+    path = "bjw2_hypercube.ogg",
+    replace = 'polychrome1'
+})
+
+-- Foil sound
+SMODS.Sound({
+    key = "bjw2_powergem",
+    path = "bjw2_powergem.ogg",
+    replace = 'foil1'
+})
+
+-- Foil triggered sound
+SMODS.Sound({
+    key = "bjw2_mystery",
+    path = "bjw2_mystery.ogg",
+    replace = 'foil2'
+})
