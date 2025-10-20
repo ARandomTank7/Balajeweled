@@ -106,6 +106,20 @@ if not config.disable_custom_sounds then
         replace = 'polychrome1'
     })
 
+    -- Debuffed sound
+    SMODS.Sound({
+        key = "bjw2_bad2",
+        path = "bjw2_bad2.ogg",
+        replace = 'cancel'
+    })
+
+    -- Holographic sound
+    SMODS.Sound({
+        key = "bjw2_hypercube2",
+        path = "bjw2_hypercube2.ogg",
+        replace = 'holo1'
+    })
+    
     -- Foil sound
     SMODS.Sound({
         key = "bjw2_powergem",
