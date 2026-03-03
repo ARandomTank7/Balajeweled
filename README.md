@@ -2,7 +2,7 @@
 Bejeweled-themed deck skin and SFXs for Balatro
 
 > [!CAUTION]
-> Steamodded's latest release which is [1.0.0-beta-1501a](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-1501a) at the time of writing this has been
+> Steamodded's latest release which is [1.0.0-beta-1501a](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-1501a) at the time of writing this, has been
 > reported to have issues with version and dependency checking, thus making Balajeweled unusable with this version so either :
 > - downgrade Steamodded to [1.0.0-beta-1224a](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-1224a)
 > - or wait until the next Steamodded hotfix which will fix the issue
