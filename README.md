@@ -1,8 +1,15 @@
 # Balajeweled
 Bejeweled-themed deck skin and SFXs for Balatro
 
-![alt text](https://i.imgur.com/I6eynNz.png)
+> [!CAUTION]
+> Steamodded's latest release which is [1.0.0-beta-1501a](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-1501a) at the time of writing this has been
+> reported to have issues with version and dependency checking, thus making Balajeweled unusable with this version so either :
+> - downgrade Steamodded to [1.0.0-beta-1224a](https://github.com/Steamodded/smods/releases/tag/1.0.0-beta-1224a)
+> - or wait until the next Steamodded hotfix which will fix the issue
+> 
+> I will update Balajeweled and remove this notice once the hotfix has been released.
 
+![alt text](https://i.imgur.com/I6eynNz.png)
 
 ## How to install Balajeweled (the easy way)
 0. Install [Lovely Injector](https://github.com/ethangreen-dev/lovely-injector) and skyline69's [**B**alatro **M**od **M**anager](https://github.com/skyline69/balatro-mod-manager)
