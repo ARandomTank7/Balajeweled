@@ -1,15 +1,7 @@
 local config = SMODS.current_mod.config
-local atlas_key = 'BJW'
+local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",}
 
-local atlas_path = 'balajeweled.png'
-local atlas_path_hc = nil
-
-local suits = {'hearts', 'spades', 'clubs', 'diamonds'}
-local ranks = {"Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"}
-
-local description = 'Balajeweled'
-
--- Config screen part
+-- Config screen
 SMODS.current_mod.config_tab = function()
 	return {n = G.UIT.ROOT, config = {align = "cm", padding = 0.05, colour = G.C.CLEAR}, nodes = {
 		{n = G.UIT.C, config = {align = "cm", padding = 0.1}, nodes = {
@@ -41,8 +33,7 @@ TexturePack({
     }
 })
 
--- Deck skin part
-
+-- Atlases
 SMODS.Atlas({
     key = 'modicon',
     path = 'modicon.png',
@@ -50,39 +41,124 @@ SMODS.Atlas({
     py = '34'
 })
 
-SMODS.Atlas{  
-    key = atlas_key..'_lc',
+local hearts_atlas = SMODS.Atlas {
+    key = 'hearts',
+    path = "balajeweled_hearts.png",
+    atlas_table = 'ASSET_ATLAS',
     px = 71,
     py = 95,
-    path = atlas_path,
-    prefix_config = {key = false}, 
+    disable_mipmap = true,
+}
+local clubs_atlas = SMODS.Atlas {
+    key = 'clubs',
+    path = "balajeweled_clubs.png",
+    atlas_table = 'ASSET_ATLAS',
+    px = 71,
+    py = 95,
+    disable_mipmap = true,
+}
+local diamonds_atlas = SMODS.Atlas {
+    key = 'diamonds',
+    path = "balajeweled_diamonds.png",
+    atlas_table = 'ASSET_ATLAS',
+    px = 71,
+    py = 95,
+    disable_mipmap = true,
+}
+local spades_atlas = SMODS.Atlas {
+    key = 'spades',
+    path = "balajeweled_spades.png",
+    atlas_table = 'ASSET_ATLAS',
+    px = 71,
+    py = 95,
+    disable_mipmap = true,
+}
+local icons_atlas = SMODS.Atlas {
+    key = "icons",
+    path = "balajeweled_icons.png",
+    px = 18,
+    py = 18,
 }
 
-if atlas_path_hc then
-    SMODS.Atlas{  
-        key = atlas_key..'_hc',
-        px = 71,
-        py = 95,
-        path = atlas_path_hc,
-        prefix_config = {key = false}, 
-    }
-end
-
-for _, suit in ipairs(suits) do
-    SMODS.DeckSkin{
-        key = suit.."_skin",
-        suit = suit:gsub("^%l", string.upper),
-        ranks = ranks,
-        lc_atlas = atlas_key..'_lc',
-        hc_atlas = (atlas_path_hc and atlas_key..'_hc') or atlas_key..'_lc',
-        loc_txt = {
-            ['en-us'] = description
+-- Deck Skins
+SMODS.DeckSkin {
+    key = "balajeweled_hearts",
+    suit = "Hearts",
+    loc_txt = "Balajeweled",
+    palettes = {
+        {
+            key = 'hc',
+            ranks = ranks,
+            display_ranks = {"King", "Queen", "Jack"},
+            atlas = hearts_atlas.key,
+            pos_style = 'suit',
+            suit_icon = {
+                atlas = icons_atlas.key,
+            },
+            loc_txt = "Garnets",
+            hc_default = true,
         },
-        posStyle = 'deck'
-    }
-end
+    },
+}
+SMODS.DeckSkin {
+    key = "balajeweled_diamonds",
+    suit = "Diamonds",
+    loc_txt = "Balajeweled",
+    palettes = {
+        {
+            key = 'hc',
+            ranks = ranks,
+            display_ranks = {"King", "Queen", "Jack"},
+            atlas = diamonds_atlas.key,
+            pos_style = 'suit',
+            suit_icon = {
+                atlas = icons_atlas.key,
+            },
+            loc_txt = "Jades",
+            hc_default = true,
+        },
+    },
+}
+SMODS.DeckSkin {
+    key = "balajeweled_clubs",
+    suit = "Clubs",
+    loc_txt = "Balajeweled",
+    palettes = {
+        {
+            key = 'hc',
+            ranks = ranks,
+            display_ranks = {"King", "Queen", "Jack"},
+            atlas = clubs_atlas.key,
+            pos_style = 'suit',
+            suit_icon = {
+                atlas = icons_atlas.key,
+            },
+            loc_txt = "Sapphires",
+            hc_default = true,
+        },
+    },
+}
+SMODS.DeckSkin {
+    key = "balajeweled_spades",
+    suit = "Spades",
+    loc_txt = "Balajeweled",
+    palettes = {
+        {
+            key = 'hc',
+            ranks = ranks,
+            display_ranks = {"King", "Queen", "Jack"},
+            atlas = spades_atlas.key,
+            pos_style = 'suit',
+            suit_icon = {
+                atlas = icons_atlas.key,
+            },
+            loc_txt = "Agates",
+            hc_default = true,
+        },
+    },
+}
 
--- Sounds part
+-- Sounds
 
 if not config.disable_custom_sounds then
     -- +Mult Sound
