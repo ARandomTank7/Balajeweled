@@ -33,7 +33,7 @@ TexturePack({
     }
 })
 
--- Altases
+-- Atlases
 SMODS.Atlas({
     key = 'modicon',
     path = 'modicon.png',
