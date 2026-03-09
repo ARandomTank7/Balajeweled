@@ -9,7 +9,7 @@
 	"priority": 0,
 	"badge_colour": "2983EB",
 	"badge_text_colour": "FFFFFF",
-	"version": "0.1.4",
+	"version": "0.1.4a",
 	"dependencies": [
 		"Steamodded (>=1.*~)",
 		"malverk (>=1.*)"
