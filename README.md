@@ -29,7 +29,7 @@ Bejeweled-themed deck skin and SFXs for Balatro
 ***A: Bejeweled 3 might have the [answer](https://bejeweled.fandom.com/wiki/Poker_(game_mode)) ;)***
 
 *Q: Face cards when?*  
-***A: As of v0.1.2, work on the face cards has begun, for now, it's only the letters and suit icons***
+***A: As of v0.1.4b, face cards has been recolored to follow Balajeweled suit colors.***
 
 *Q: When new update?*  
 ***A: Please keep in mind that this is a pass time project, I work on Balajeweled when I have some time to spare, so please be patient.***
