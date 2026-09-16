@@ -8,7 +8,7 @@ Bejeweled-themed deck skin and SFXs for Balatro
 
 ## How to install Balajeweled (the (less) easy way)
 0. Install [Lovely Injector](https://github.com/ethangreen-dev/lovely-injector), frostice482's [imm](https://codeberg.org/frostice482/balatro-imm) and [Steamodded](https://github.com/Steamodded/smods)
-1. After setting up **imm**, launch the game, click on the "Browse" button on the main menu then search for **Malverk** and install them as Balajeweled requires them.
+1. After setting up **imm**, launch the game, click on the "Browse" button on the main menu then search for **Malverk** and install it.
 2. Look for Balajeweled, either in the "Resources" category or by searching manually then install it.
 3. Close **imm**, if asked to restart the game, click "Yes", this will enable the mods you installed.
 4. After restarting the game, go to "Options" and "Customize deck", set all suits to "Balajeweled"
