@@ -25,6 +25,9 @@ Bejeweled-themed deck skin and SFXs for Balatro
 
 
 ## Questions and Answers
+*Q: What happened to Balatro Mod Manager?*  
+***A: BMM has become less and less reliable over time and people are moving away from it and imm supports both Thunderstore and the Mod Index that BMM relies on, so you can still update Balajeweled from imm, tho I might make Balajeweled available in Thunderstore***
+
 *Q: What has Bejeweled have to do with poker?*  
 ***A: Bejeweled 3 might have the [answer](https://bejeweled.fandom.com/wiki/Poker_(game_mode)) ;)***
 
