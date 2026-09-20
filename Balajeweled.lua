@@ -1,5 +1,6 @@
 local config = SMODS.current_mod.config
-local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', "King", "Ace",}
+local ranks = {'2', '3', '4', '5', '6', '7', '8', '9', '10', "Jack", "Queen", "King", "Ace",}
+local displayranks = {"Jack", "Queen", "King", "Ace"}
 
 -- Config screen
 SMODS.current_mod.config_tab = function()
@@ -89,7 +90,7 @@ SMODS.DeckSkin {
         {
             key = 'hc',
             ranks = ranks,
-            display_ranks = {"King", "Queen", "Jack"},
+            display_ranks = displayranks,
             atlas = hearts_atlas.key,
             pos_style = 'suit',
             suit_icon = {
@@ -108,7 +109,7 @@ SMODS.DeckSkin {
         {
             key = 'hc',
             ranks = ranks,
-            display_ranks = {"King", "Queen", "Jack"},
+            display_ranks = displayranks,
             atlas = diamonds_atlas.key,
             pos_style = 'suit',
             suit_icon = {
@@ -127,7 +128,7 @@ SMODS.DeckSkin {
         {
             key = 'hc',
             ranks = ranks,
-            display_ranks = {"King", "Queen", "Jack"},
+            display_ranks = displayranks,
             atlas = clubs_atlas.key,
             pos_style = 'suit',
             suit_icon = {
@@ -146,7 +147,7 @@ SMODS.DeckSkin {
         {
             key = 'hc',
             ranks = ranks,
-            display_ranks = {"King", "Queen", "Jack"},
+            display_ranks = displayranks,
             atlas = spades_atlas.key,
             pos_style = 'suit',
             suit_icon = {
