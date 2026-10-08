@@ -10,7 +10,7 @@ Bejeweled-themed deck skin and SFXs for Balatro
 0. Install **[r2modman](https://thunderstore.io/c/balatro/p/ebkr/r2modman/)**
 1. In the game list, search for Balatro, then click Select Profile (there is the "Default" profile already set up)
 2. Click on the "Online" section on the left, then search for Balajeweled.
-3. Once you found it, hit "Install", it will install *almost* all the dependencies for you. **(Malverk isn't available on Thunderstore yet, you'll need to manually install it for now, grab it [here](https://github.com/Eremel/Malverk/releases/latest))**
+3. Once you found it, hit "Install", it will install all the dependencies for you.
 4. Once everything is installed, click the "Start Modded" button to launch the game.
 5. Upon entering the game, go to "Options" and "Customize deck", set all suits to "Balajeweled"
 6. Go back in the options menu and go to "Textures" then enable "Balajeweled Enhancers"
