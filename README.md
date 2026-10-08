@@ -6,6 +6,11 @@ Bejeweled-themed deck skin and SFXs for Balatro
 > [!WARNING]
 > Your antivirus may freak out after downloading Lovely, don't panic, Lovely is completely safe as it is open source, you'll need to whitelist Lovely in your AV settings.
 
+> [!WARNING]
+> **Balatro Mod Manager** has been discontinued and people are moving to Thunderstore for Balatro Modding,
+> you should get rid of BMM if you still have it, and move to either **imm** (in-game mod manager) or **r2modman**,
+> Balajeweled is now available **in this repo** or on **Thunderstore**, anywhere else is not official.
+
 ## How to install Balajeweled (the Thunderstore way)
 0. Install **[r2modman](https://thunderstore.io/c/balatro/p/ebkr/r2modman/)**
 1. In the game list, search for Balatro, then click Select Profile (there is the "Default" profile already set up)
@@ -35,9 +40,6 @@ Bejeweled-themed deck skin and SFXs for Balatro
 
 
 ## Questions and Answers
-*Q: What happened to Balatro Mod Manager?*  
-***A: BMM has become less and less reliable over time and people are moving away from it and imm supports both Thunderstore and the Mod Index that BMM relies on, so you can still update Balajeweled from imm***
-
 *Q: What has Bejeweled have to do with poker?*  
 ***A: Bejeweled 3 might have the [answer](https://bejeweled.fandom.com/wiki/Poker_(game_mode)) ;)***
 
